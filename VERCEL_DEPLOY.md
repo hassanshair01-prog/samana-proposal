@@ -1,28 +1,26 @@
 # Samana ❤️ — Vercel Deployment Guide
 
-## 🌟 Instant Live Links:
-1. **One-Click Claim Link (Active Now):**
-   👉 [Click Here to Claim on Vercel](https://vercel.com/claim-deployment?code=a721835a-024a-4a1a-a8a1-e03b83e9bce6)
-   - Opening this in your browser immediately saves the project into your Vercel account.
-   - It will assign your permanent domain (e.g., `samana-proposal.vercel.app` or any custom name you choose).
+## 🌟 Live on Vercel:
+1. **One-Click Claim Link (Permanent .vercel.app Domain):**
+   👉 **[Click Here to Claim Your Deployment on Vercel](https://vercel.com/claim-deployment?code=377cac48-016d-421b-b03c-eb771699fa65)**
+   - Is link par click karte hi yeh deployment aapke Vercel account se attach ho jayegi.
+   - Aapko permanent live link mil jayega (e.g. `https://samana-proposal.vercel.app`).
 
-2. **Deploy to your own Vercel account from Terminal:**
+2. **Temporary Preview Link (Active now):**
+   - [https://zippy-jade-nmii2kn.tmp.now](https://zippy-jade-nmii2kn.tmp.now)
+
+3. **Deploy from Terminal to your own Vercel Account:**
    ```bash
    cd c:\Users\QC\virsal
    npx vercel login
    npx vercel --prod
    ```
 
-3. **Deploy via GitHub:**
-   - Push this folder to your GitHub:
+4. **Deploy via GitHub:**
+   - Push to your GitHub:
      ```bash
-     cd c:\Users\QC\virsal
-     git init
      git add .
-     git commit -m "Romantic 3D Proposal Website for Samana ❤️"
-     git branch -M main
-     # Add your repo remote:
-     # git remote add origin https://github.com/YOUR_USERNAME/samana-proposal.git
-     # git push -u origin main
+     git commit -m "Live deployment updates"
+     git push
      ```
-   - Go to [vercel.com/new](https://vercel.com/new), select the repo, and click **Deploy**!
+   - Connect on [vercel.com](https://vercel.com) for automated CI/CD!
